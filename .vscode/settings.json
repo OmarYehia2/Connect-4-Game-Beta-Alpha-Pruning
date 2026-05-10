@@ -1,0 +1,7 @@
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "cpp": "& 'C:\\msys64\\ucrt64\\bin\\g++.exe' -g -mwindows -static-libgcc -static-libstdc++ -DSFML_STATIC \"$fullFileName\" '-ID:\\SFML-3.1.0\\include' '-LD:\\SFML-3.1.0\\lib' -o \"$dir\\\\$fileNameWithoutExt.exe\" '-lsfml-graphics-s' '-lsfml-window-s' '-lsfml-system-s' '-lfreetype' '-lharfbuzz' '-lopengl32' '-lgdi32' '-lwinmm'; if (`$LASTEXITCODE -eq 0) { Copy-Item 'C:\\msys64\\ucrt64\\bin\\libwinpthread-1.dll' \"$dir\\\\libwinpthread-1.dll\" -Force; & \"$dir\\\\$fileNameWithoutExt.exe\" }"
+    },
+    "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe"
+}
