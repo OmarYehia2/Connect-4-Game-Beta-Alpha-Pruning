@@ -1,4 +1,4 @@
-<img width="700" height="629" alt="image" src="https://github.com/user-attachments/assets/130c1a70-934f-4201-81e9-a3db90fa1a2a" /># 🔴🟡 Connect Four — AI with Minimax & Alpha-Beta Pruning
+🔴🟡 Connect Four — AI with Minimax & Alpha-Beta Pruning
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C%2B%2B%2017-blue?style=for-the-badge&logo=cplusplus"/>
@@ -20,7 +20,7 @@
 
 Gameplay
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/40e28f23-fefb-4c6c-a5f2-afc372a3117b" width="500"/>
+  <img src="https://github.com/user-attachments/assets/4e1b8ea4-e6eb-4e82-969c-5d51d8503ca3" width="500"/>
 </p>
 
 ---
