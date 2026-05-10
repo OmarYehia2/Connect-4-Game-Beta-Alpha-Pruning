@@ -1,8 +1,8 @@
 🔴🟡 Connect Four — AI with Minimax & Alpha-Beta Pruning
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Language-C%2B%2B%2017-blue?style=for-the-badge&logo=cplusplus"/>
-  <img src="https://img.shields.io/badge/GUI-SFML%202.5-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Language-C%2B%2B%2020-blue?style=for-the-badge&logo=cplusplus"/>
+  <img src="https://img.shields.io/badge/GUI-SFML%203.10-green?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Algorithm-Minimax-orange?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Optimization-Alpha--Beta%20Pruning-red?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows"/>
