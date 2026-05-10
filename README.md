@@ -1,4 +1,4 @@
-# 🔴🟡 Connect Four — AI with Minimax & Alpha-Beta Pruning
+<img width="700" height="629" alt="image" src="https://github.com/user-attachments/assets/130c1a70-934f-4201-81e9-a3db90fa1a2a" /># 🔴🟡 Connect Four — AI with Minimax & Alpha-Beta Pruning
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C%2B%2B%2017-blue?style=for-the-badge&logo=cplusplus"/>
@@ -18,11 +18,8 @@
 
 ## 📸 Screenshots
 
-> *(Add your own screenshots here after running the game)*
-
-| Gameplay | AI Wins | Draw |
-|:---:|:---:|:---:|
-| ![gameplay](screenshots/gameplay.png) | ![ai_wins](screenshots/ai_wins.png) | ![draw](screenshots/draw.png) |
+Gameplay
+![gameplay](<img width="698" height="631" alt="image" src="https://github.com/user-attachments/assets/40e28f23-fefb-4c6c-a5f2-afc372a3117b" />) 
 
 ---
 
@@ -75,7 +72,6 @@ connect4/
 ├── Board.h / .cpp    # Board logic: drop piece, win detection, valid moves
 ├── AI.h    / .cpp    # Minimax + Alpha-Beta Pruning
 ├── Game.h  / .cpp    # Game loop, SFML rendering, event handling
-└── CMakeLists.txt    # Build configuration
 ```
 
 ---
@@ -84,36 +80,24 @@ connect4/
 
 ### Prerequisites
 
-- C++17 compatible compiler (GCC / MSVC / Clang)
-- [SFML 2.5+](https://www.sfml-dev.org/download.php)
-- CMake 3.16+ *(optional)*
+- C++20 compatible compiler (GCC / MSVC / Clang)
+- [SFML 3.10](https://www.sfml-dev.org/download.php)
 
 ### Build with g++
 
 ```bash
-g++ main.cpp Board.cpp AI.cpp Game.cpp \
-    -o Connect4 \
-    -lsfml-graphics -lsfml-window -lsfml-system \
-    -std=c++17
+ C:\msys64\ucrt64\bin\g++.exe -g -mwindows -static-libgcc -static-libstdc++ -DSFML_STATIC `
+>> "D:\AI Game\main.cpp" `
+>> "D:\AI Game\Game\Game.cpp" `
+>> "D:\AI Game\Board\Board.cpp" `
+>> "D:\AI Game\AI\AI.cpp" `
+>> -ID:\SFML-3.1.0\include -LD:\SFML-3.1.0\lib `
+>> -o "D:\AI Game\Connect4.exe" `
+>> -lsfml-graphics-s -lsfml-window-s -lsfml-system-s `
+>> -lfreetype -lharfbuzz -lopengl32 -lgdi32 -lwinmm
 ./Connect4
 ```
 
-### Build with CMake
-
-```bash
-mkdir build && cd build
-cmake ..
-cmake --build .
-./Connect4
-```
-
-### Build with Visual Studio
-1. Open the folder in Visual Studio 2022
-2. Select **File → Open → CMake project**
-3. Choose `CMakeLists.txt`
-4. Press **Ctrl+F5** to build and run
-
----
 
 ## 🕹️ How to Play
 
@@ -147,8 +131,8 @@ const int CELL  = 100; // Cell size in pixels
 
 | Library | Version | Purpose |
 |---|---|---|
-| [SFML](https://www.sfml-dev.org/) | 2.5+ | Window, rendering, events |
-| C++ STL | C++17 | Vectors, algorithms |
+| [SFML](https://www.sfml-dev.org/) | 3.10 | Window, rendering, events |
+| C++ STL | C++20 | Vectors, algorithms |
 
 ---
 
