@@ -19,7 +19,9 @@
 ## 📸 Screenshots
 
 Gameplay
-![gameplay](<img width="698" height="631" alt="image" src="https://github.com/user-attachments/assets/40e28f23-fefb-4c6c-a5f2-afc372a3117b" />) 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/40e28f23-fefb-4c6c-a5f2-afc372a3117b" width="500"/>
+</p>
 
 ---
 
